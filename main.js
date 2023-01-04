@@ -57,7 +57,7 @@ function addStar() {
 }
 Array(200).fill().forEach(addStar)
 
-const spaceTexture = new THREE.TextureLoader().load('/main/space.jpg');
+const spaceTexture = new THREE.TextureLoader().load('https://github.com/ishratUmar18/scroll-animation/blob/main/space.jpg');
 scene.background = spaceTexture;
 
 // Texture mapping - Avator
