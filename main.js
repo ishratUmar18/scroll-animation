@@ -57,11 +57,11 @@ function addStar() {
 }
 Array(200).fill().forEach(addStar)
 
-const spaceTexture = new THREE.TextureLoader().load('https://github.com/ishratUmar18/scroll-animation/blob/main/space.jpg');
+const spaceTexture = new THREE.TextureLoader().load('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3drNjIyMDM4MjgtaW1hZ2Uta3A2Ym1jYmIuanBn.jpg');
 scene.background = spaceTexture;
 
 // Texture mapping - Avator
-const ishratTexture = new THREE.TextureLoader().load('https://github.com/ishratUmar18/scroll-animation/blob/main/ishrat.png');
+const ishratTexture = new THREE.TextureLoader().load('ishrat.png');
 const ishrat = new THREE.Mesh(
     new THREE.BoxGeometry(3,3,3),
     new THREE.MeshBasicMaterial({map: ishratTexture})
@@ -70,8 +70,8 @@ const ishrat = new THREE.Mesh(
 scene.add(ishrat);
 
 // Moon
-const moonTexture = new THREE.TextureLoader().load('../moon.jpg');
-const normalTexture = new THREE.TextureLoader().load('/blob/main/normal.jpg');
+const moonTexture = new THREE.TextureLoader().load('moon.jpg');
+const normalTexture = new THREE.TextureLoader().load('normal.jpg');
 
 const moon = new THREE.Mesh(
     new THREE.SphereGeometry(3, 32, 32),
