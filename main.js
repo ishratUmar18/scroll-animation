@@ -61,7 +61,7 @@ const spaceTexture = new THREE.TextureLoader().load('https://images.rawpixel.com
 scene.background = spaceTexture;
 
 // Texture mapping - Avator
-const ishratTexture = new THREE.TextureLoader().load('https://img.freepik.com/free-photo/cute-freelance-girl-using-laptop-sitting-floor-smiling_176420-20221.jpg?w=740&t=st=1672853401~exp=1672854001~hmac=2340ea5d11e028a4e66162a9c4c9612739dade615235fb841a8f0c84cbb3c64a');
+const ishratTexture = new THREE.TextureLoader().load('https://img.freepik.com/free-photo/cute-freelance-girl-using-laptop-sitting-floor-smiling_176420-20221.jpg');
 const ishrat = new THREE.Mesh(
     new THREE.BoxGeometry(3,3,3),
     new THREE.MeshBasicMaterial({map: ishratTexture})
