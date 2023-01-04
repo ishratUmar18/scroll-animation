@@ -61,7 +61,7 @@ const spaceTexture = new THREE.TextureLoader().load('https://images.rawpixel.com
 scene.background = spaceTexture;
 
 // Texture mapping - Avator
-const ishratTexture = new THREE.TextureLoader().load('ishrat.png');
+const ishratTexture = new THREE.TextureLoader().load('https://img.freepik.com/free-photo/cute-freelance-girl-using-laptop-sitting-floor-smiling_176420-20221.jpg?w=740&t=st=1672853401~exp=1672854001~hmac=2340ea5d11e028a4e66162a9c4c9612739dade615235fb841a8f0c84cbb3c64a');
 const ishrat = new THREE.Mesh(
     new THREE.BoxGeometry(3,3,3),
     new THREE.MeshBasicMaterial({map: ishratTexture})
@@ -70,8 +70,8 @@ const ishrat = new THREE.Mesh(
 scene.add(ishrat);
 
 // Moon
-const moonTexture = new THREE.TextureLoader().load('moon.jpg');
-const normalTexture = new THREE.TextureLoader().load('normal.jpg');
+const moonTexture = new THREE.TextureLoader().load('https://images.immediate.co.uk/production/volatile/sites/25/2019/02/TYCHO-27e2a02-e1603190530561.jpg');
+const normalTexture = new THREE.TextureLoader().load('https://thumbs.dreamstime.com/b/normal-map-ground-stone-texture-mapping-245660873.jpg');
 
 const moon = new THREE.Mesh(
     new THREE.SphereGeometry(3, 32, 32),
