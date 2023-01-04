@@ -61,7 +61,7 @@ const spaceTexture = new THREE.TextureLoader().load('space.jpg');
 scene.background = spaceTexture;
 
 // Texture mapping - Avator
-const ishratTexture = new THREE.TextureLoader().load('ishrat.png');
+const ishratTexture = new THREE.TextureLoader().load('https://github.com/ishratUmar18/scroll-animation/blob/main/ishrat.png');
 const ishrat = new THREE.Mesh(
     new THREE.BoxGeometry(3,3,3),
     new THREE.MeshBasicMaterial({map: ishratTexture})
